@@ -20,13 +20,10 @@ body{
 }
 
 
-
+.bg-info{
+    background-color: #433739 !important;
+}
 .bg-dark {
-<<<<<<< HEAD
-
-=======
-	
->>>>>>> estilos menu arreglado
     transition: all 200ms linear;
 }
 .section {
