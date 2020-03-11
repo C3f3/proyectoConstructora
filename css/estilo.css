@@ -169,6 +169,20 @@ body{
 	position: relative;
     transition: all 200ms linear;
 }
+/*===================Slider================*/
+
+.carousel-item {
+  margin-top: 40px;
+  min-height: 500px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 
 
 
@@ -195,7 +209,7 @@ body{
 }
 
 
-/*===================Slider================*/
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
