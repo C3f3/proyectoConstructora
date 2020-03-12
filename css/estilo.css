@@ -194,6 +194,49 @@ b{
     font-weight: 400;
 }
 
+/*==================Servicios=============*/
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.portfolio-details a{
+    text-decoration: none;
+}
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+.portfolio-details a h2, .portfolio-details a p{
+    color: #ffffff;
+}
+
+
+
 
 
 
