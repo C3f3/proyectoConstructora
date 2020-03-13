@@ -20,9 +20,16 @@ body{
 }
 
 
+<<<<<<< HEAD
 
 .bg-dark {
 	
+=======
+.bg-info{
+    background-color: #433739 !important;
+}
+.bg-dark {
+>>>>>>> ultimo
     transition: all 200ms linear;
 }
 .section {
@@ -48,6 +55,7 @@ body{
 
 /*navegacion*/
 .start-header{
+    background-color: black;
     opacity: 1;
     transform: translateY(0);
     padding: 10px 0;
@@ -68,6 +76,7 @@ body{
 }
 
 .navigation-wrap{
+    background-color: #1a1a1a;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -82,10 +91,15 @@ body{
 /*================menus==================*/
 .navbar{
     padding: 0;
+    min-height: 40px;
+}
+.navbar navbar-dark{
+    background-color: black !importat;
 }
 .navbar-brand img{
     height: 52px;
 }
+
 
 /*==============boton de menu===============*/
 .navbar-toggler{
@@ -172,8 +186,13 @@ body{
 /*===================Slider================*/
 
 .carousel-item {
+<<<<<<< HEAD
   margin-top: 40px;
   min-height: 500px;
+=======
+  margin-top: 50px;
+  min-height: 600px;
+>>>>>>> ultimo
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -181,6 +200,55 @@ body{
   background-size: cover;
 }
 
+<<<<<<< HEAD
+=======
+b{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/*==================Servicios=============*/
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.portfolio-details{
+    position:absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index:2;
+}
+.portfolio-details a{
+    text-decoration: none;
+}
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+.portfolio-details a h2, .portfolio-details a p{
+    color: #ffffff;
+}
+
+>>>>>>> ultimo
 
 
 
