@@ -19,17 +19,11 @@ body{
 	background-color: #8167a9;
 }
 
-
-<<<<<<< HEAD
-
-.bg-dark {
-	
-=======
 .bg-info{
     background-color: #433739 !important;
 }
 .bg-dark {
->>>>>>> ultimo
+
     transition: all 200ms linear;
 }
 .section {
@@ -186,13 +180,11 @@ body{
 /*===================Slider================*/
 
 .carousel-item {
-<<<<<<< HEAD
+
   margin-top: 40px;
   min-height: 500px;
-=======
   margin-top: 50px;
   min-height: 600px;
->>>>>>> ultimo
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -200,8 +192,7 @@ body{
   background-size: cover;
 }
 
-<<<<<<< HEAD
-=======
+
 b{
     font-size: 25px;
     font-weight: 400;
@@ -247,11 +238,6 @@ b{
 .portfolio-details a h2, .portfolio-details a p{
     color: #ffffff;
 }
-
->>>>>>> ultimo
-
-
-
 
 
 
