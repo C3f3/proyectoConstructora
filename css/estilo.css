@@ -10,14 +10,14 @@ body{
     transition: all 200ms linear;
     
 }
-::selection {
+/*::selection {
 	color: #fff;
 	background-color: #8167a9;
 }
 ::-moz-selection {
 	color: #fff;
 	background-color: #8167a9;
-}
+}*/
 
 .bg-info{
     background-color: #433739 !important;
@@ -53,6 +53,21 @@ body{
 .form-control{
     height: 45px;
 }
+
+small{
+    color:#fff;
+}
+.blanco{
+    color: #fff !important;
+    
+}
+.blanco:hover{
+    color: #fff !important;
+   
+}
+
+
+
 /*navegacion*/
 .start-header{
     background-color: black;
