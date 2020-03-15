@@ -206,13 +206,46 @@ b{
     text-align: center;
 }
 
-.portfolio-container{
+.service-container{
     position: relative;
     overflow: hidden;
     margin: 10px 0;
     border-radius: 5px;
 }
 
+.service-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.service-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.service-details{
+    position:absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index:2;
+}
+.service-details a{
+    text-decoration: none;
+}
+.service-details h2{
+    margin-bottom: 0px;
+}
+.service-details a h2, .service-details a p{
+    color: #ffffff;
+}
+
+/*=============Portafolio=======*/
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 5px;
+}
 .portfolio-container img{
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
@@ -223,6 +256,7 @@ b{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+
 .portfolio-details{
     position:absolute;
     bottom: 25px;
@@ -238,6 +272,22 @@ b{
 .portfolio-details a h2, .portfolio-details a p{
     color: #ffffff;
 }
+
+/*========contacto=======*/
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 
 
 
