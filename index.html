@@ -10,11 +10,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="vendor/aos.css">
 
-    <title>Mi Constructora</title>
+    <title>Arturo Construcciones Srl.</title>
+
 </head>
 
-<body data-spy="scroll" data-target="#myMenu" data-offset="0">
+<body>
     <!--menu-->
     <div class="navigation-wrap bg-dark start-header start-style">
         <div class="container">
@@ -55,7 +57,7 @@
 
     <!------------------ slider------------->
     <div class="section" id ="home">
-        <header class="main-header">
+        <header class="main-header aos-item" data-aos="fade-up">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,7 +99,7 @@
         </header>
     </div>
     <!--------About-------->
-    <div class="section" id="about">
+    <div class="section aos-item" data-aos="fade-up" data-aos-duration="1000" id="about">
         <div class=" bg-info text-center py-5 mb-4 ">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Sobre Nosotros</h1>
@@ -111,7 +113,7 @@
                     <p class="text-dark">Nuestra empresa la conforma un grupo variado de profesionales de primer nivel. Esto nos permite abordar cada desafio des una forma integral. <b>Conocenos</b></p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row aos-item" data-aos="fade-up" data-aos-duration="1000">
                 <!-- Team Member 1 -->
                 <div class="col-xl-3 col-md-6 mb-4">
                     <div class="card border-0 shadow">
@@ -157,7 +159,7 @@
         </div>
     </div>
     <!-------Servicios------>
-    <div class="section" id="service">
+    <div class="section aos-item" data-aos="fade-up" data-aos-duration="1000" id="service">
         <div class="bg-dark text-center my-5 py-5">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Nuestros Servicios</h1>
@@ -210,7 +212,7 @@
     </div>
 
     <!-------portafolio--------------->
-    <div class="section" id="portfolio">
+    <div class="section aos-item" data-aos="fade-up" data-aos-duration="1000" id="portfolio">
         <div class="bg-dark my-5 text-center py-5">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Portafolio</h1>
@@ -288,7 +290,7 @@
     </div>
 
     <!-----------Contact--------------->
-    <div class="section" id="contact">
+    <div class="section aos-item" data-aos="fade-up" data-aos-duration="1000" id="contact">
 
         <div class="bg-dark text-center py-5 mb-4">
             <div class="container">
@@ -408,7 +410,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="vendor/aos.js"></script> 
+    <script>
+        AOS.init({
+                easing:'ease-in-out-sine'
+            });
+    </script> 
 
 </body>
 
