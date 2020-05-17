@@ -14,14 +14,14 @@
     <title>Mi Constructora</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myMenu" data-offset="0">
     <!--menu-->
     <div class="navigation-wrap bg-dark start-header start-style">
         <div class="container">
             <div class="row">
                 <div class="col-12">
 
-                    <nav class="navbar navbar-expand-md navbar-dark fixed">
+                    <nav  id="myMenu" class="navbar navbar-expand-md navbar-dark fixed">
                         <a class="navbar-brand" href="#"><span>Construcciones</span>.srl</a>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +34,16 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                                    <a class="nav-link" href="#about">Sobre Nosotros</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">Servicios</a>
+                                    <a class="nav-link" href="#service">Servicios</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">Portafolio</a>
+                                    <a class="nav-link" href="#portfolio">Portafolio</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                    <a class="nav-link" href="#contact">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@
     </div>
 
     <!------------------ slider------------->
-    <div class="section">
+    <div class="section" id ="home">
         <header class="main-header">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -97,7 +97,7 @@
         </header>
     </div>
     <!--------About-------->
-    <div class="section">
+    <div class="section" id="about">
         <div class=" bg-info text-center py-5 mb-4 ">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Sobre Nosotros</h1>
@@ -157,7 +157,7 @@
         </div>
     </div>
     <!-------Servicios------>
-    <div class="section ">
+    <div class="section" id="service">
         <div class="bg-dark text-center my-5 py-5">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Nuestros Servicios</h1>
@@ -210,7 +210,7 @@
     </div>
 
     <!-------portafolio--------------->
-    <div class="section ">
+    <div class="section" id="portfolio">
         <div class="bg-dark my-5 text-center py-5">
             <div class="container sec">
                 <h1 class="font-weight-light text-white">Portafolio</h1>
@@ -288,7 +288,7 @@
     </div>
 
     <!-----------Contact--------------->
-    <div class="section">
+    <div class="section" id="contact">
 
         <div class="bg-dark text-center py-5 mb-4">
             <div class="container">
@@ -315,22 +315,22 @@
                         <div class="md-form mt-3">
                             <i class="fas fa-user prefix grey-text"></i>
                             <input type="text" id="form-name" class="form-control" placeholder="Nombre">
-                            
+
                         </div>
                         <div class="md-form mt-3">
                             <i class="fas fa-envelope prefix grey-text"></i>
                             <input type="text" id="form-email" class="form-control" placeholder="Email">
-                            
+
                         </div>
                         <div class="md-form mt-3">
                             <i class="fas fa-tag prefix grey-text"></i>
                             <input type="text" id="form-Subject" class="form-control" placeholder="Asunto">
-                            
+
                         </div>
                         <div class="md-form mt-3">
                             <i class="fas fa-pencil-alt prefix grey-text"></i>
                             <textarea id="form-text" class="form-control md-textarea" rows="4" placeholder="mensaje"></textarea>
-                        
+
                         </div>
                         <div class="text-center mt-3">
                             <button class="btn btn-success fullwith">Enviar</button>
@@ -378,7 +378,7 @@
             <!-- Grid column -->
 
         </div>
-    
+
     </div>
 
     <!--------footer-------->
@@ -403,13 +403,12 @@
             </div>
         </div>
     </div>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
-    
+
 
 </body>
 

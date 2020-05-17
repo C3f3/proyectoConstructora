@@ -8,6 +8,7 @@ body{
     background-color: #fff;
 	overflow-x: hidden;
     transition: all 200ms linear;
+	position:relative;
     
 }
 
@@ -177,7 +178,7 @@ small{
 }
 .nav-item:after{
 	position: absolute;
-	bottom: -5px;
+    bottom: -5px;
 	left: 0;
 	width: 100%;
 	height: 2px;
@@ -190,13 +191,15 @@ small{
 	bottom: 0;
 	opacity: 1;
 }
-.nav-item.active:hover:after{
-	opacity: 0;
+.nav-item .active:hover:after{
+    opacity: 0;
+    color:green;
 }
 .nav-item{
 	position: relative;
     transition: all 200ms linear;
 }
+
 /*===================Slider================*/
 
 .carousel-item {
