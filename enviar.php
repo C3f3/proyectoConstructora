@@ -37,6 +37,7 @@
             $mail->WordWrap = 100; 
             $mail->IsHTML(true);     
             $mail->Subject  =  $Asunto;
+            
             $mail->Body     =  "Nombre: $Nombre \n<br />".    
             "Email: $Email \n<br />".
             "Asunto: $Asunto \n<br />".    
