@@ -21,7 +21,7 @@
         $Mensaje = $_POST['Mensaje'];
         $Asunto = $_POST['Asunto'];
         
-        if( $Nombre == '' || $Email == '' || $Mensaje){
+        if( $Nombre == '' || $Email == '' || $Mensaje==""){
             echo "<script>alert('Los campos marcados con * son obligatorios');location.href ='javascript:history.back()';</script>";
         }
 
@@ -34,7 +34,7 @@
             $mail->AddAddress("armandoher01@gmail.com");
 
             //armamos el mail con los datos;
-            $mail->WordWrap = 100; 
+            $mail->WordWrap = 50; 
             $mail->IsHTML(true);     
             $mail->Subject  =  $Asunto;
             
